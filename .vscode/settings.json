@@ -1,6 +1,8 @@
 {
   "editor.formatOnSave": true,
   "jshint.enable": false,
-  "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": false
+  "prettier.eslintIntegration": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
